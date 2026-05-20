@@ -5,7 +5,7 @@ TalentServ technical challenge — MCP server exposing weather tools, resources,
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/its-giving-weather.git
+git clone https://github.com/devinraina258/its-giving-weather.git
 cd its-giving-weather
 cp env.example .env
 npm install
