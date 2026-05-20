@@ -1,0 +1,31 @@
+{
+  "name": "challenge8-mcp-recommendation",
+  "version": "1.0.0",
+  "description": "MCP server for multi-source weather recommendations with Grok API",
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx src/server.ts",
+    "demo": "tsx src/demo-client.ts",
+    "web": "tsx src/web/server.ts",
+    "test": "tsx --test src/__tests__/tools.test.ts"
+  },
+  "keywords": ["mcp", "recommendation", "weather", "grok"],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "axios": "^1.16.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/express-session": "^1.19.0",
+    "@types/node": "^25.9.1"
+  }
+}
