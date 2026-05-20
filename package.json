@@ -1,5 +1,5 @@
 {
-  "name": "challenge8-mcp-recommendation",
+  "name": "its-giving-weather",
   "version": "1.0.0",
   "description": "MCP server for multi-source weather recommendations with Grok API",
   "type": "module",

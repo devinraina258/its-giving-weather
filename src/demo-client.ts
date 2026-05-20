@@ -11,7 +11,7 @@ async function runDemo() {
   const location = "pune";
   const question = "Should I go for an outing in Pune this evening?";
 
-  console.log("=== Challenge 8 MCP Recommendation Demo ===\n");
+  console.log("=== its-giving-weather demo ===\n");
   console.log("1. supported_locations");
   console.log(getResourceContent("recommendation://supported_locations"));
   console.log("\n2. get_weather");

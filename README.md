@@ -1,12 +1,12 @@
-# Challenge 8: MCP Server for Multi-Source Recommendation Agent
+# its-giving-weather
 
 TalentServ technical challenge — MCP server exposing weather tools, resources, and prompts; multi-source aggregation; Grok-powered recommendations; authenticated demo web client.
 
 ## Quick start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/challenge8-mcp-recommendation.git
-cd challenge8-mcp-recommendation
+git clone https://github.com/YOUR_USERNAME/its-giving-weather.git
+cd its-giving-weather
 cp env.example .env
 npm install
 npm test
@@ -32,7 +32,7 @@ Copy `env.example` to `.env`. Set `GROK_API_KEY` from https://console.x.ai for l
 
 ```bash
 gh auth login
-gh repo create challenge8-mcp-recommendation --public --source=. --remote=origin --push
+gh repo create its-giving-weather --public --source=. --remote=origin --push
 ```
 
 ## License

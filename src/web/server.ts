@@ -20,7 +20,7 @@ app.use(
 app.get("/", (_req, res) => {
   res.send(`<html><body style="font-family:sans-serif;max-width:640px;margin:2rem auto">
     <h1>Weather Recommendation Agent</h1>
-    <p>Challenge 8 — MCP multi-source recommendations (TalentServ)</p>
+    <p>its-giving-weather — MCP multi-source recs (TalentServ)</p>
     <p><a href="/login">Login</a> to access the dashboard.</p>
   </body></html>`);
 });
