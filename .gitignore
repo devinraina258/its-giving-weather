@@ -5,3 +5,5 @@ dist/
 *.log
 .DS_Store
 coverage/
+.cursor/rules/graphify.mdc
+.cursor/skills/graphify/SKILL.md
