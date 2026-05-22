@@ -5,3 +5,8 @@ dist/
 *.log
 .DS_Store
 coverage/
+
+# graphify (generated knowledge graph output)
+graphify-out/
+.cursor/rules/graphify.mdc
+.cursor/skills/graphify/SKILL.md
